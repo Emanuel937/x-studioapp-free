@@ -1,0 +1,12 @@
+.typing-container {
+    white-space: wrap;
+    overflow: hidden;
+    border-right: 2px solid #00f0ff;
+    background-size: 300%;
+    animation: blinkCursor 0.75s step-end infinite, blinkCursor 5s infinite linear;
+}
+
+@keyframes blinkCursor {
+    from, to { border-color: #00f0ff; }
+    50% { border-color: #ffffff; }
+}
